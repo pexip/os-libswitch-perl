@@ -3,12 +3,14 @@ Section: perl
 Priority: standard
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Dominic Hargreaves <dom@earth.li>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Dominic Hargreaves <dom@earth.li>
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/Switch/
 Vcs-Git: git://git.debian.org/pkg-perl/packages/libswitch-perl.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libswitch-perl.git
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: libswitch-perl
 Architecture: all
